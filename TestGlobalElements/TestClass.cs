@@ -17,7 +17,7 @@ namespace TestGlobalElements
         public void TestMethod()
         {
             //LinqLibaryTest.linqList();
-            
+            //Blop Example!!!
             TempClassTest.EnterText(driver, ".//*[@name='fullname']", "kobi", PropertyType.Xpath);
             string expectedName = GetMethods.GetText(driver, ".//*[@name='fullname']", PropertyType.Xpath);
             TempClassTest.SelectDropDown(driver, ".//*[@name='subject']", "הנדסת חשמל", PropertyType.Xpath);   
